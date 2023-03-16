@@ -19,8 +19,8 @@
 MFRC522 rfid(SS_PIN, RST_PIN);
 
 // WiFi credentials
-const char* ssid = "CtOS";
-const char* password = "876543210";
+const char* ssid = "";
+const char* password = "";
 
 // Server URL
 String serverName = "https://192.168.1.153:443";
